@@ -7,18 +7,18 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('https://yuanji.me'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Yuan Ji',
+    template: '%s | Yuan Ji',
   },
   description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
-    locale: 'en_US',
+    title: 'Yuan Ji',
+    description: 'Developer and gardener',
+    url: 'https://yuanji.me',
+    siteName: 'Yuan Ji',
+    locale: 'en_CA',
     type: 'website',
   },
   robots: {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Yuan Ji',
     card: 'summary_large_image',
   },
   verification: {
