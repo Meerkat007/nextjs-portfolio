@@ -5,7 +5,7 @@ const projects = [
   {
     link: '/projects/collisionszero',
     title: 'Collisions Zero',
-    description: 'A service that allows people to report dangrous driving behaviours via IVR',
+    description: 'A service that allows people to report dangerous driving behaviours via IVR',
     date: '2023',
   },
   {
