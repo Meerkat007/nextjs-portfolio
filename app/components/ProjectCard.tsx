@@ -13,7 +13,7 @@ function ProjectCard(props) {
     return (
         <div className='project_card'>
             <Link href={link}>
-                <date>{date}</date>
+                <time>{date}</time>
                 <h2>{title}</h2>
                 <p>{description}</p>
             </Link>
