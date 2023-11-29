@@ -1,0 +1,30 @@
+.project_card {
+    border: 1px solid black;
+    padding: 10px 20px 20px 20px;
+}
+
+.project_card date {
+    font-size: 12px;
+}
+
+.project_card h2 {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.project_card:hover {
+    cursor: pointer;
+}
+
+/* Normalize link styles */
+.project_card a {
+    text-decoration: none; /* Remove underlines by default */
+    color: inherit; /* Inherit text color from the parent */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+  }
+  
+/* Define link styles on hover */
+.project_card a:hover {
+    text-decoration: none; /* Underline on hover */
+    cursor: pointer;
+}

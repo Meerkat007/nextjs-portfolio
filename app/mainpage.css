@@ -1,0 +1,10 @@
+section.main_page .project_container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-auto-rows: 1fr;
+    gap: 10px;
+}
+
+section.main_page .project_container > div {
+    align-self: stretch;
+}
