@@ -23,6 +23,10 @@
     padding-bottom: 10px;
 }
 
+.project_card .description {
+    padding-bottom: 10px;
+}
+
 .project_card:hover {
     cursor: pointer;
 }

@@ -16,7 +16,7 @@ function ProjectCard(props) {
             <Link href={link}>
                 <time>{date}</time>
                 <h2>{title}</h2>
-                <p>{description}</p>
+                <p className='description'>{description}</p>
                 <div className='tech'>{technologies.join(', ')}</div>
             </Link>
         </div>
