@@ -8,3 +8,9 @@ section.main_page .project_container {
 section.main_page .project_container > div {
     align-self: stretch;
 }
+
+@media only screen and (max-width: 600px) {
+    section.main_page .project_container {
+        grid-template-columns: minmax(200px, 1fr);
+    }
+}
