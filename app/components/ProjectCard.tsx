@@ -8,6 +8,7 @@ function ProjectCard(props) {
         title,
         description,
         date,
+        technologies,
     } = props;
 
     return (
@@ -16,6 +17,7 @@ function ProjectCard(props) {
                 <time>{date}</time>
                 <h2>{title}</h2>
                 <p>{description}</p>
+                <div className='tech'>{technologies.join(', ')}</div>
             </Link>
         </div>
     )
