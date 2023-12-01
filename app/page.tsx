@@ -3,14 +3,14 @@ import './mainpage.css'
 
 const projects = [
   {
-    link: '/projects/collisionszero',
+    link: 'https://github.com/Meerkat007/twilio_ivr',
     title: 'Collisions Zero',
     description: 'A service that allows people to report dangerous driving behaviours via IVR',
     date: '2023',
     technologies: ['AWS', 'Firebase', 'NodeJS', 'React', 'Twilio IVR']
   },
   {
-    link: '/projects/offermulty',
+    link: 'https://offermulty.com/',
     title: 'OfferMulty',
     description: 'A job offer accelerator that helps people land their dream job faster',
     date: '2023',
@@ -24,7 +24,7 @@ const projects = [
     technologies: ['React', 'NodeJS', 'Firebase', 'WebRTC']
   },
   {
-    link: '/projects/scrumpoker',
+    link: 'https://github.com/Meerkat007/scrum-poker',
     title: 'Scrum Poker',
     description: 'A tool that allows team to estimate complexity or time it may take to complete a task in sprint planning',
     date: '2021',
@@ -38,7 +38,7 @@ const projects = [
     technologies: ['Swift', 'Xcode']
   },
   {
-    link: '/projects/reachtheportal',
+    link: 'https://www.facebook.com/eastereggdesign/',
     title: 'Easter Egg Design',
     description: 'An Android app for designing easter eggs!',
     date: '2015',
